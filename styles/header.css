@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(222 222 222);
+  z-index: 200;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+}
+.center-header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  max-width: 470px;
+}
+.right-header {
+  width: 182px;
+  margin-left: 29px;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.youtube-logo {
+  height: 20px;
+}
+.search-bar {
+  flex: 1;
+  height: 36px;
+  width: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204 204 204);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding-left: 12px;
+}
+.search-button {
+  height: 40px;
+  width: 64px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204 204 204);
+  border-left: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #f7f7f7;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-button-picture {
+  height: 24px;
+}
+.voice-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.voice-button-picture {
+  height: 24px;
+}
+.upload-icon {
+  height: 24px;
+}
+.apps-icon {
+  height: 24px;
+}
+.notifications {
+  position: relative;
+}
+.notifications-icon {
+  height: 24px;
+}
+.notifications-counter {
+  position: absolute;
+  background-color: rgb(204 0 0);
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 80px;
+  top: -3px;
+  right: -7px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 15px;
+}
+.my-profile {
+  height: 32px;
+}

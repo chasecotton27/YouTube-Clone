@@ -1,0 +1,29 @@
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.first {
+  font-size: 40px;
+}
+
+.small {
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+}
+
+.second {
+  color: green;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.third {
+  color:rgb(110, 110, 110);
+  margin-top: 8px;
+}
+
+.red {
+  color: red;
+}

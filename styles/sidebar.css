@@ -1,0 +1,25 @@
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 438px;
+  width: 72px;
+  padding-top: 5px;
+  background-color: white;
+  font-family: Roboto, Arial, sans-serif;
+  z-index: 200;
+}
+.sidebar-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  font-size: 10px;
+}
+.sidebar-icon {
+  height: 24px;
+  margin-bottom: 5px;
+}
